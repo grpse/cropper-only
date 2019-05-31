@@ -81,7 +81,9 @@ var CropperComponent = /** @class */ (function () {
             this.cropper.y1 = videoCropper.y1 / divideRatio;
             this.cropper.x2 = videoCropper.x2 / divideRatio;
             this.cropper.y2 = videoCropper.y2 / divideRatio;
-            console.log('this.cropper', this.cropper);
+            this.doAutoCrop();
+            this.onResize();
+            this.cd.markForCheck();
         },
         enumerable: true,
         configurable: true

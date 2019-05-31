@@ -1,6 +1,6 @@
 {
   "name": "cropper-only",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "bundles/cropper-only.umd.js",
   "module": "fesm5/cropper-only.js",
   "es2015": "fesm2015/cropper-only.js",

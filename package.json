@@ -1,6 +1,6 @@
 {
   "name": "cropper-only",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./dist/bundles/cropper-only.umd.js",
   "module": "./dist/cropper-only/cropper-only.es5.js",
   "es2015": "./dist/cropper-only/cropper-only.js",
