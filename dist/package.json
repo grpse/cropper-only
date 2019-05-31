@@ -1,15 +1,9 @@
 {
   "name": "cropper-only",
   "version": "0.0.1",
-  "main": "./dist/bundles/cropper-only.umd.js",
-  "module": "./dist/cropper-only/cropper-only.es5.js",
-  "es2015": "./dist/cropper-only/cropper-only.js",
-  "scripts": {
-    "transpile": "ngc",
-    "build": "ng-packagr -p ng-package.json",
-    "pack-lib": "npm pack ./dist",
-    "publish-lib": "npm publish ./dist"
-  },
+  "main": "bundles/cropper-only.umd.js",
+  "module": "fesm5/cropper-only.js",
+  "es2015": "fesm2015/cropper-only.js",
   "private": true,
   "peerDependencies": {
     "@angular/common": ">=2.4.0",
@@ -40,5 +34,15 @@
     "tslint": "~5.11.0",
     "typescript": "~3.2.2",
     "tsickle": "^0.35.0"
+  },
+  "esm5": "esm5/cropper-only.js",
+  "esm2015": "esm2015/cropper-only.js",
+  "fesm5": "fesm5/cropper-only.js",
+  "fesm2015": "fesm2015/cropper-only.js",
+  "typings": "cropper-only.d.ts",
+  "metadata": "cropper-only.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
   }
 }

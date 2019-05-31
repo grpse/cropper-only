@@ -1,0 +1,7 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+export { CropperModule } from './src/cropper.module';
+export { CropperComponent } from './src/cropper/cropper.component';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290Ijoibmc6Ly9jcm9wcGVyLW9ubHkvIiwic291cmNlcyI6WyJpbmRleC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7O0FBQUEsT0FBTyxFQUFFLGFBQWEsRUFBRSxNQUFNLHNCQUFzQixDQUFDO0FBQ3JELE9BQU8sRUFBRSxnQkFBZ0IsRUFBUSxNQUFNLGlDQUFpQyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IHsgQ3JvcHBlck1vZHVsZSB9IGZyb20gJy4vc3JjL2Nyb3BwZXIubW9kdWxlJztcbmV4cG9ydCB7IENyb3BwZXJDb21wb25lbnQsIFJlY3QgfSBmcm9tICcuL3NyYy9jcm9wcGVyL2Nyb3BwZXIuY29tcG9uZW50JztcbmV4cG9ydCB7IENyb3BwZXJQb3NpdGlvbiwgQ3JvcHBlZEV2ZW50IH0gZnJvbSAnLi9zcmMvaW50ZXJmYWNlcyc7Il19

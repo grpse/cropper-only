@@ -1,12 +1,12 @@
 <div>
-
+        <!-- [style.margin-left]="alignImage === 'center' ? marginLeft : null" -->
+        
   <div class="cropper"
        [class.rounded]="roundCropper"
        [style.top.px]="cropper.y1"
        [style.left.px]="cropper.x1"
        [style.width.px]="cropper.x2 - cropper.x1"
        [style.height.px]="cropper.y2 - cropper.y1"
-       [style.margin-left]="alignImage === 'center' ? marginLeft : null"
        [style.visibility]="'visible'"
   >
       <div
