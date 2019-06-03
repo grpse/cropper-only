@@ -1,9 +1,10 @@
 {
   "name": "cropper-only",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "bundles/cropper-only.umd.js",
   "module": "fesm5/cropper-only.js",
   "es2015": "fesm2015/cropper-only.js",
+  "typings": "cropper-only.d.ts",
   "private": true,
   "peerDependencies": {
     "@angular/common": ">=2.4.0",
@@ -39,7 +40,6 @@
   "esm2015": "esm2015/cropper-only.js",
   "fesm5": "fesm5/cropper-only.js",
   "fesm2015": "fesm2015/cropper-only.js",
-  "typings": "cropper-only.d.ts",
   "metadata": "cropper-only.metadata.json",
   "sideEffects": false,
   "dependencies": {

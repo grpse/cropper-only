@@ -14,19 +14,21 @@
       "inlineSources": true,
       "target": "es2015",
       "skipLibCheck": true,
+      "preserveSymlinks": true,
       "lib": [
           "es2015",
           "dom"
       ]
   },
   "files": [
-      "index.ts"
+    "index.ts"
   ],
   "angularCompilerOptions": {
       "skipTemplateCodegen": true,
+      "preserveSymlinks": true,
       "annotateForClosureCompiler": true,
       "strictMetadataEmit": true,
-      "flatModuleOutFile": "cropper.js",
-      "flatModuleId": "cropper"
+      "flatModuleOutFile": "cropper-only.js",
+      "flatModuleId": "cropper-only"
   }
 }

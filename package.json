@@ -1,6 +1,6 @@
 {
   "name": "cropper-only",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "./dist/bundles/cropper-only.umd.js",
   "module": "./dist/cropper-only/cropper-only.es5.js",
   "es2015": "./dist/cropper-only/cropper-only.js",
@@ -10,6 +10,7 @@
     "pack-lib": "npm pack ./dist",
     "publish-lib": "npm publish ./dist"
   },
+  "typings": "./dist/cropper-only.d.ts",
   "private": true,
   "peerDependencies": {
     "@angular/common": ">=2.4.0",
